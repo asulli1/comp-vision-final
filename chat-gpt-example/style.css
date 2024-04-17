@@ -1,0 +1,15 @@
+.page {
+    width: 1200px; /* Adjust as needed for a two-page spread */
+    height: 400px; /* Adjust as needed */
+    display: none; /* Hide all pages by default */
+}
+
+.page:first-child {
+    display: flex; /* Display the first pair of pages */
+}
+
+.page img {
+    width: 50%; /* Each image takes half the width of the page container */
+    height: 100%; /* Each image takes the full height of the page container */
+    object-fit: contain; /* Ensure the whole image fits inside its container */
+}
